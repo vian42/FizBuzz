@@ -4,15 +4,15 @@ import java.math.BigInteger;
 import java.util.Set;
 import java.util.TreeMap;
 
-public class FizBuzz {
+class FizBuzz {
 
     private static TreeMap<BigInteger,String> map = new TreeMap<>();
 
-    public void addToTheTree(BigInteger number,String translation){
+    void addToTheTree(BigInteger number, String translation){
         map.put(number,translation);
     }
 
-    public String translate(BigInteger number) {
+    String translate(BigInteger number) {
         StringBuilder translatedNumber = new StringBuilder();
 
         Set<BigInteger> key = map.keySet();

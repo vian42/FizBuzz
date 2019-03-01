@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f0a925c1-3e1e-4931-97eb-6fe4c640f327" name="Default Changelist" comment="refactoring , paramétrisation des nombres à traduires">
-      <change afterPath="$PROJECT_DIR$/src/com/practice/PrintFizBuzzNumber.java" afterDir="false" />
+    <list default="true" id="f0a925c1-3e1e-4931-97eb-6fe4c640f327" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/practice/FizBuzz.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/practice/FizBuzz.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/practice/FizBuzzTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/practice/FizBuzzTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/practice/PrintFizBuzzNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/practice/PrintFizBuzzNumber.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -66,13 +65,13 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="1134" />
+          <entry key="java" value="1140" />
           <entry key="txt" value="325" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="1134" />
+          <entry key="JAVA" value="1140" />
           <entry key="PLAIN_TEXT" value="325" />
         </counts>
       </usages-collector>
@@ -86,8 +85,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/practice/FizBuzz.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+            <state relative-caret-position="272">
+              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#179#180#0" expanded="true" />
@@ -100,8 +99,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/practice/PrintFizBuzzNumber.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="31" selection-start-line="4" selection-start-column="31" selection-end-line="4" selection-end-column="31" />
+            <state relative-caret-position="170">
+              <caret line="10" column="46" selection-start-line="10" selection-start-column="46" selection-end-line="10" selection-end-column="46" />
             </state>
           </provider>
         </entry>
@@ -151,9 +150,9 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/com/practice/FizBuzzTest2.java" />
-        <option value="$PROJECT_DIR$/src/com/practice/FizBuzz.java" />
         <option value="$PROJECT_DIR$/src/com/practice/FizBuzzTest.java" />
         <option value="$PROJECT_DIR$/src/com/practice/newClass.java" />
+        <option value="$PROJECT_DIR$/src/com/practice/FizBuzz.java" />
         <option value="$PROJECT_DIR$/src/com/practice/PrintFizBuzzNumber.java" />
       </list>
     </option>
@@ -199,7 +198,7 @@
     <property name="Downloaded.Files.Path.Enabled" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551451267477" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551451411631" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="create.test.in.the.same.root" value="true" />
@@ -230,7 +229,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.FizBuzzTest">
+  <component name="RunManager">
     <configuration name="PrintFizBuzzNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.practice.PrintFizBuzzNumber" />
       <module name="FizBuzz" />
@@ -264,8 +263,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.FizBuzzTest" />
         <item itemvalue="Application.PrintFizBuzzNumber" />
+        <item itemvalue="JUnit.FizBuzzTest" />
       </list>
     </recent_temporary>
   </component>
@@ -329,13 +328,17 @@
       <option name="project" value="LOCAL" />
       <updated>1551439107760</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="refactoring , paramétrisation des nombres à traduires">
+      <created>1551451316544</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1551451316544</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="FizBuzzTest - 2019.03.01 at 14h 45m 43s.xml">
-      <configuration name="FizBuzzTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="FizBuzzTest - 2019.03.01 at 15h 15m 07s.xml">
       <configuration name="FizBuzzTest" configurationId="JUnit" />
     </history-entry>
@@ -361,6 +364,9 @@
       <configuration name="FizBuzzTest" configurationId="JUnit" />
     </history-entry>
     <history-entry file="FizBuzzTest - 2019.03.01 at 15h 38m 59s.xml">
+      <configuration name="FizBuzzTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FizBuzzTest - 2019.03.01 at 15h 42m 39s.xml">
       <configuration name="FizBuzzTest" configurationId="JUnit" />
     </history-entry>
   </component>
@@ -499,18 +505,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/practice/FizBuzz.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#179#180#0" expanded="true" />
-            <element signature="e#202#203#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/practice/FizBuzzTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
@@ -521,10 +515,22 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/practice/FizBuzz.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#179#180#0" expanded="true" />
+            <element signature="e#202#203#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/practice/PrintFizBuzzNumber.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="31" selection-start-line="4" selection-start-column="31" selection-end-line="4" selection-end-column="31" />
+        <state relative-caret-position="170">
+          <caret line="10" column="46" selection-start-line="10" selection-start-column="46" selection-end-line="10" selection-end-column="46" />
         </state>
       </provider>
     </entry>
