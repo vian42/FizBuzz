@@ -28,4 +28,11 @@ public class FizBuzzTest {
         String result = FizBuzz.translate(aNumber);
         assertEquals("buzz", result);
     }
+
+    @Test
+    public void name() {
+        int aNumber = 15;
+        String result = FizBuzz.translate(aNumber);
+        assertEquals("fizbuzz", result);
+    }
 }
