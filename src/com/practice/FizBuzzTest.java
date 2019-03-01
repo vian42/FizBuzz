@@ -22,4 +22,10 @@ public class FizBuzzTest {
         assertEquals("fiz", result);
     }
 
+    @Test
+    public void name() {
+        int aNumber = 5;
+        String result = FizBuzz.translate(aNumber);
+        assertEquals("buzz", result);
+    }
 }
