@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f0a925c1-3e1e-4931-97eb-6fe4c640f327" name="Default Changelist" comment="">
+    <list default="true" id="f0a925c1-3e1e-4931-97eb-6fe4c640f327" name="Default Changelist" comment="refactoring , paramétrisation des nombres à traduires">
+      <change afterPath="$PROJECT_DIR$/src/com/practice/PrintFizBuzzNumber.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/practice/FizBuzz.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/practice/FizBuzz.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/practice/FizBuzzTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/practice/FizBuzzTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -50,26 +52,28 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
+          <entry key="class" value="3" />
           <entry key="iml" value="3" />
-          <entry key="java" value="12" />
+          <entry key="java" value="22" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
+          <entry key="CLASS" value="3" />
           <entry key="IDEA_MODULE" value="3" />
-          <entry key="JAVA" value="12" />
+          <entry key="JAVA" value="22" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="194" />
-          <entry key="txt" value="237" />
+          <entry key="java" value="1134" />
+          <entry key="txt" value="325" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="194" />
-          <entry key="PLAIN_TEXT" value="237" />
+          <entry key="JAVA" value="1134" />
+          <entry key="PLAIN_TEXT" value="325" />
         </counts>
       </usages-collector>
     </session>
@@ -79,11 +83,37 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/practice/FizBuzz.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="6" column="29" selection-start-line="6" selection-start-column="29" selection-end-line="6" selection-end-column="29" />
+            <state relative-caret-position="153">
+              <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#179#180#0" expanded="true" />
+                <element signature="e#202#203#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/practice/PrintFizBuzzNumber.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" column="31" selection-start-line="4" selection-start-column="31" selection-end-line="4" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/practice/FizBuzzTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="16" column="8" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -93,10 +123,18 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="JUnit4 Test Class" />
+        <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>tree</find>
+    </findStrings>
+    <replaceStrings>
+      <replace />
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -113,12 +151,14 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/com/practice/FizBuzzTest2.java" />
-        <option value="$PROJECT_DIR$/src/com/practice/FizBuzzTest.java" />
         <option value="$PROJECT_DIR$/src/com/practice/FizBuzz.java" />
+        <option value="$PROJECT_DIR$/src/com/practice/FizBuzzTest.java" />
+        <option value="$PROJECT_DIR$/src/com/practice/newClass.java" />
+        <option value="$PROJECT_DIR$/src/com/practice/PrintFizBuzzNumber.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-7" />
     <option name="width" value="974" />
     <option name="height" value="1047" />
@@ -159,7 +199,7 @@
     <property name="Downloaded.Files.Path.Enabled" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551439074570" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551451267477" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="create.test.in.the.same.root" value="true" />
@@ -190,7 +230,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.FizBuzzTest">
+    <configuration name="PrintFizBuzzNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.practice.PrintFizBuzzNumber" />
+      <module name="FizBuzz" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.practice.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="FizBuzzTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="FizBuzz" />
       <extension name="coverage">
@@ -205,9 +258,14 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="JUnit.FizBuzzTest" />
+      <item itemvalue="Application.PrintFizBuzzNumber" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.FizBuzzTest" />
+        <item itemvalue="Application.PrintFizBuzzNumber" />
       </list>
     </recent_temporary>
   </component>
@@ -264,29 +322,45 @@
       <option name="project" value="LOCAL" />
       <updated>1551438881982</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="passage du test 4ème test au vert">
+      <created>1551439107760</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1551439107760</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="FizBuzzTest - 2019.03.01 at 10h 52m 20s.xml">
+    <history-entry file="FizBuzzTest - 2019.03.01 at 14h 45m 43s.xml">
       <configuration name="FizBuzzTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FizBuzzTest - 2019.03.01 at 11h 48m 05s.xml">
+    <history-entry file="FizBuzzTest - 2019.03.01 at 15h 15m 07s.xml">
       <configuration name="FizBuzzTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FizBuzzTest - 2019.03.01 at 11h 58m 23s.xml">
+    <history-entry file="FizBuzzTest - 2019.03.01 at 15h 18m 34s.xml">
       <configuration name="FizBuzzTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FizBuzzTest - 2019.03.01 at 12h 01m 53s.xml">
+    <history-entry file="FizBuzzTest - 2019.03.01 at 15h 26m 08s.xml">
       <configuration name="FizBuzzTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FizBuzzTest - 2019.03.01 at 12h 05m 16s.xml">
+    <history-entry file="FizBuzzTest - 2019.03.01 at 15h 26m 14s.xml">
       <configuration name="FizBuzzTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FizBuzzTest - 2019.03.01 at 12h 06m 02s.xml">
+    <history-entry file="FizBuzzTest - 2019.03.01 at 15h 26m 42s.xml">
       <configuration name="FizBuzzTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FizBuzzTest - 2019.03.01 at 12h 13m 54s.xml">
+    <history-entry file="FizBuzzTest - 2019.03.01 at 15h 27m 43s.xml">
+      <configuration name="FizBuzzTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FizBuzzTest - 2019.03.01 at 15h 32m 44s.xml">
+      <configuration name="FizBuzzTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FizBuzzTest - 2019.03.01 at 15h 34m 28s.xml">
+      <configuration name="FizBuzzTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FizBuzzTest - 2019.03.01 at 15h 38m 59s.xml">
       <configuration name="FizBuzzTest" configurationId="JUnit" />
     </history-entry>
   </component>
@@ -300,7 +374,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1920" height="1080" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49917898" weight="0.1337953" />
@@ -310,17 +384,17 @@
       <window_info id="UI Designer" order="4" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" sideWeight="0.500821" side_tool="true" weight="0.27461708" />
-      <window_info anchor="bottom" id="Messages" weight="0.329718" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32777777" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.32968238" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32968238" />
-      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Messages" order="0" weight="0.32944915" />
+      <window_info anchor="bottom" id="Message" order="1" />
+      <window_info anchor="bottom" id="Find" order="2" />
+      <window_info active="true" anchor="bottom" id="Run" order="3" sideWeight="0.49947917" visible="true" weight="0.3273305" />
+      <window_info anchor="bottom" id="Debug" order="4" weight="0.3991323" />
+      <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="7" weight="0.32968238" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.3209746" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5005208" side_tool="true" weight="0.3273305" />
+      <window_info anchor="bottom" id="Version Control" order="10" show_stripe_button="false" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -332,7 +406,7 @@
       <window_info anchor="right" id="Maven Projects" order="8" />
     </layout>
     <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49917898" visible="true" weight="0.1337953" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49917898" weight="0.1337953" />
       <window_info id="Structure" order="1" sideWeight="0.500821" side_tool="true" weight="0.27461708" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -342,7 +416,7 @@
       <window_info anchor="bottom" id="Messages" order="0" weight="0.329718" />
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="bottom" id="Find" order="2" />
-      <window_info active="true" anchor="bottom" id="Run" order="3" visible="true" weight="0.3286334" />
+      <window_info active="true" anchor="bottom" id="Run" order="3" visible="true" weight="0.32777777" />
       <window_info anchor="bottom" id="Debug" order="4" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
@@ -375,7 +449,9 @@
     <MESSAGE value="passage du test en vert" />
     <MESSAGE value="refactoring" />
     <MESSAGE value="création du 4ème test -&gt; résultat en rouge" />
-    <option name="LAST_COMMIT_MESSAGE" value="création du 4ème test -&gt; résultat en rouge" />
+    <MESSAGE value="passage du test 4ème test au vert" />
+    <MESSAGE value="refactoring , paramétrisation des nombres à traduires" />
+    <option name="LAST_COMMIT_MESSAGE" value="refactoring , paramétrisation des nombres à traduires" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/com/practice/FizBuzzTest2.java">
@@ -391,20 +467,64 @@
     <entry file="file://$PROJECT_DIR$/FizBuzz.iml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-11.0.1/lib/src.zip!/java.base/java/math/BigInteger.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="605">
+          <caret line="129" column="13" selection-start-line="129" selection-start-column="13" selection-end-line="129" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/internal/runners/model/ReflectiveCallable.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/runners/model/FrameworkMethod.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="159">
+          <caret line="29" selection-start-line="29" selection-end-line="29" />
+          <folding>
+            <element signature="e#870#1063#0" expanded="true" />
+            <element signature="e#1062#1063#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/internal/runners/statements/RunBefores.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="28" selection-start-line="28" selection-end-line="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/practice/FizBuzz.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#179#180#0" expanded="true" />
+            <element signature="e#202#203#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/practice/FizBuzzTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="516">
-          <caret line="34" column="42" selection-start-line="34" selection-start-column="42" selection-end-line="34" selection-end-column="42" />
+        <state relative-caret-position="272">
+          <caret line="16" column="8" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/practice/FizBuzz.java">
+    <entry file="file://$PROJECT_DIR$/src/com/practice/PrintFizBuzzNumber.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="6" column="29" selection-start-line="6" selection-start-column="29" selection-end-line="6" selection-end-column="29" />
+        <state relative-caret-position="68">
+          <caret line="4" column="31" selection-start-line="4" selection-start-column="31" selection-end-line="4" selection-end-column="31" />
         </state>
       </provider>
     </entry>
