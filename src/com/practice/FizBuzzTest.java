@@ -1,6 +1,7 @@
 package com.practice;
 
 import org.junit.Test;
+
 import static org.junit.Assert.*;
 
 public class FizBuzzTest {
@@ -19,8 +20,6 @@ public class FizBuzzTest {
         int aNumber = 3;
         String result = FizBuzz.translate(aNumber);
         assertEquals("fiz", result);
-        assertEquals("fiz", FizBuzz.translate(6));
-        assertEquals("fiz", FizBuzz.translate(9));
     }
 
 }
