@@ -5,6 +5,9 @@ public class FizBuzz {
         if (number % 3 == 0) {
             return "fiz";
         }
+        if (number % 5 == 0){
+            return "buzz";
+        }
         return "" + number;
     }
 }
