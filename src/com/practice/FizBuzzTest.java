@@ -23,7 +23,7 @@ public class FizBuzzTest {
     }
 
     @Test
-    public void name() {
+    public void expect_buzz_given_multiple_of_5() {
         int aNumber = 5;
         String result = FizBuzz.translate(aNumber);
         assertEquals("buzz", result);
