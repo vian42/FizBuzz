@@ -6,9 +6,9 @@ import java.util.TreeMap;
 
 class FizBuzz {
 
-    private static TreeMap<BigInteger,String> map = new TreeMap<>();
+    private static TreeMap<BigInteger, String> map = new TreeMap<>();
 
-    void addToTheTree(BigInteger number, String translation){
+    void addToTheTree(BigInteger number, String translation) {
         map.put(number,translation);
     }
 
